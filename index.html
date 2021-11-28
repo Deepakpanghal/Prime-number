@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <style>
+            body{
+                color: tomato;
+            }
+        </style>
+    </head>
+    <body>
+     
+        <script>
+            
+            var num=prompt("Enter to check prime number");
+            if(num == 1){
+
+               console.log( num + " is not a prime number");
+            } 
+            else {
+
+               for(var i=2; i<num; i=i+1 ){
+                   
+                  if(num%i == 0)
+                  {
+
+                     var result= ( num + " is not a prime number");
+                      break;
+                  }
+                  else {
+
+                     var result= (num + " is a prime number");
+                     }
+                  }
+                console.log(result);
+            }
+
+            document.write(result);
+    
+        </script>
+    </body>
+</html>
